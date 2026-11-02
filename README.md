@@ -1,17 +1,5 @@
 <img src="assets/header.webp" width="100%" alt="Building cloud and AI products people actually use. Director of Product Management, Platform Engineering.">
 
-I lead product for platform engineering: the cloud infrastructure and platform
-capabilities other teams build on. I got here the long way. I started as an
-SRE keeping live TV on air in Bilbao, built the data infrastructure behind a
-500 TB data lake on AWS in Chicago, and ran reliability and capacity programs
-for Azure's virtual machine fleet at Microsoft.
-
-GitHub is where I build on my own time, mostly things I wanted to exist: a
-disaster-detection system for city cameras, a 3D map that gets teenagers
-interested in engineering, and more home automation than one apartment
-needs. I'm from Bilbao, live in Chicago, and write about cloud and AI on
-LinkedIn in English and Spanish.
-
 ### Activity
 
 <img src="assets/activity.svg" width="100%" alt="GitHub contributions over the last year, redrawn daily by a GitHub Action in this repository.">
