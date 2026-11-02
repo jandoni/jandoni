@@ -1,4 +1,4 @@
-name: snake
+name: snake and terminal
 on:
   schedule:
     - cron: "23 6 * * *"   # daily, 06:23 UTC
@@ -9,6 +9,10 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
       - name: draw the contribution snake (copper, light and dark)
         uses: Platane/snk/svg-only@v3
         with:
@@ -16,6 +20,8 @@ jobs:
           outputs: |
             dist/snake-light.svg?color_snake=#8a4f28&color_dots=#ebe7e1,#e3c5aa,#cf9b70,#ad6c3d,#7d4421
             dist/snake-dark.svg?color_snake=#c08250&color_dots=#1c2128,#4a3020,#7d4421,#ad6c3d,#c08250
+      - name: frame the snake and the tools in the terminal card
+        run: python scripts/terminal.py --snake dist/snake-light.svg --out dist/terminal.svg
       - name: publish to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
