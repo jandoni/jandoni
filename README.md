@@ -24,6 +24,10 @@ LinkedIn in English and Spanish.
     <td valign="top">An interactive 3D map of 38 museums, shipyards, universities and technology centres in Spain's engineering network, built for the IIE. First IIE–AWS prize, 2025. <b>Looking for a new owner.</b></td>
   </tr>
   <tr>
+    <td valign="top"><a href="https://github.com/jandoni/linkedin-daily-agent"><b>LinkedIn daily agent</b></a><br><sub>Python · n8n · Claude</sub></td>
+    <td valign="top">Finds tech and AI news, drafts a post in my voice with the article's real numbers, renders the image, and waits in Telegram until I tap Publish. Both workflows are generated from Python, and it posts only through LinkedIn's official API.</td>
+  </tr>
+  <tr>
     <td valign="top"><b>Home lab</b><br><sub>Home Assistant · Proxmox · Python</sub></td>
     <td valign="top">One mini PC running Home Assistant and a dozen services. A local voice assistant runs on the Intel iGPU (Parakeet speech-to-text, a 3B local model), with Echo Shows reflashed as voice satellites. The config is private because it maps my home network.</td>
   </tr>
