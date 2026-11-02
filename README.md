@@ -1,6 +1,4 @@
-<p align="center">
-  <a href="https://jonandonibaranda.com"><img src="https://readme-typing-svg.demolab.com?font=Gelasio&amp;size=21&amp;duration=2800&amp;pause=1400&amp;color=A8673A&amp;center=true&amp;vCenter=true&amp;width=880&amp;height=44&amp;lines=Director+of+Product+Management%2C+Platform+Engineering;Started+as+an+SRE+keeping+live+TV+on+air+in+Bilbao;Built+the+data+infrastructure+behind+a+500+TB+lake+on+AWS;Ran+reliability+programs+for+Azure%27s+virtual+machine+fleet;Still+building+on+my+own+time%3A+computer+vision%2C+3D+maps%2C+voice" alt="Director of Product Management, Platform Engineering. Started as an SRE keeping live TV on air in Bilbao. Built the data infrastructure behind a 500 TB lake on AWS. Ran reliability programs for Azure's virtual machine fleet. Still building on my own time."></a>
-</p>
+<a href="https://jonandonibaranda.com"><img src="assets/header.svg" width="100%" alt="Building cloud and AI products people actually use. Director of Product Management, Platform Engineering."></a>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jon-andoni-baranda/"><img src="assets/buttons/linkedin.svg" height="38" alt="LinkedIn"></a>&nbsp;
@@ -8,7 +6,7 @@
   <a href="https://scholar.google.com/citations?user=bZPQs6kAAAAJ"><img src="assets/buttons/scholar.svg" height="38" alt="Google Scholar"></a>
 </p>
 
-<a href="scripts/activity.py"><img align="left" width="66%" src="assets/activity.svg" alt="GitHub contributions over the last year, animated, redrawn daily by a GitHub Action in this repository."></a>
+<a href="https://www.linkedin.com/in/jon-andoni-baranda/"><img align="left" width="64%" src="assets/terminal.svg" alt="Terminal: whoami prints Director of Product Management, Platform Engineering; career.txt lists SRE for live TV in Bilbao, data infrastructure behind a 500 TB data lake on AWS in Chicago, and reliability and capacity programs for Azure's VM fleet at Microsoft; building lists vigia, explorar-espana, linkedin-daily-agent and casa-voice."></a>
 
 **Tools I reach for**
 
@@ -29,8 +27,12 @@
   <a href="https://www.proxmox.com" title="Proxmox"><img src="https://cdn.simpleicons.org/proxmox/8a4f28/c08250" height="36" alt="Proxmox"></a>
 </p>
 
-
 <br clear="left">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jandoni/jandoni/output/snake-dark.svg">
+  <img width="100%" src="https://raw.githubusercontent.com/jandoni/jandoni/output/snake-light.svg" alt="A copper snake eating this year's GitHub contribution graph, redrawn daily.">
+</picture>
 
 ### Publications
 

@@ -1,0 +1,26 @@
+name: snake
+on:
+  schedule:
+    - cron: "23 6 * * *"   # daily, 06:23 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: draw the contribution snake (copper, light and dark)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#8a4f28&color_dots=#ebe7e1,#e3c5aa,#cf9b70,#ad6c3d,#7d4421
+            dist/snake-dark.svg?color_snake=#c08250&color_dots=#1c2128,#4a3020,#7d4421,#ad6c3d,#c08250
+      - name: publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: Update contribution snake
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
