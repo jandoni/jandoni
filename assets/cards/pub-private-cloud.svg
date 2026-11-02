@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="200" viewBox="0 0 440 200" role="img" aria-label="Design and build of a custom private cloud">
+<style>
+  .k { font: 400 12px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #6b655e; }
+  .t { font-family: Georgia, 'Times New Roman', serif; font-weight: 400; fill: #111111; }
+  .b { font: 400 13.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #3a3530; }
+  .n { font: 400 12.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8a4f28; }
+  .p { font: 500 11.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8a4f28; }
+</style>
+<rect x="0.5" y="0.5" width="439" height="199" rx="8" fill="#f4f1ec" stroke="#d8d2c8"/>
+<text x="26" y="44" class="k">Research · University of the Basque Country</text>
+<text x="26" y="75" class="t" font-size="17">Design and build of a custom private cloud</text>
+<text x="26" y="103" class="b">Choosing how to build a private cloud, then designing and</text>
+<text x="26" y="122" class="b">deploying it on OpenStack: the architecture, the trade-offs</text>
+<text x="26" y="141" class="b">and the result.</text>
+<text x="26" y="176" class="n">2025 · Google Scholar</text>
+<rect x="340.8" y="161" width="73.2" height="22" rx="11" fill="none" stroke="#8a4f28" stroke-width="1"/>
+<text x="377.4" y="176" class="p" text-anchor="middle">Research</text>
+</svg>

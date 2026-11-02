@@ -1,4 +1,4 @@
-<img src="assets/header.webp" width="100%" alt="Jon Andoni Baranda. Building cloud and AI products people actually use. Director of Product Management, Platform Engineering, Chicago.">
+<img src="assets/header.webp" width="100%" alt="Building cloud and AI products people actually use. Director of Product Management, Platform Engineering.">
 
 I lead product for platform engineering: the cloud infrastructure and platform
 capabilities other teams build on. I got here the long way. I started as an
@@ -11,33 +11,6 @@ disaster-detection system for city cameras, a 3D map that gets teenagers
 interested in engineering, and more home automation than one apartment
 needs. I'm from Bilbao, live in Chicago, and write about cloud and AI on
 LinkedIn in English and Spanish.
-
-### Selected work
-
-<table>
-  <tr>
-    <td width="24%" valign="top"><a href="https://github.com/jandoni/vigia"><b>VIGÍA</b></a><br><sub>Python · ONNX · FastAPI</sub></td>
-    <td valign="top">Disaster detection for the cameras cities already have. Published detectors for fire, flood and people in water sit behind one validator that decides which alarms are worth a human's attention. First prize, <i>Young Engineers for a Better World</i>, Instituto de la Ingeniería de España, 2025. <b>Looking for maintainers.</b></td>
-  </tr>
-  <tr>
-    <td valign="top"><a href="https://github.com/jandoni/ingenet3d"><b>Explorar España</b></a><br><sub>JavaScript · Google 3D Maps · AWS</sub></td>
-    <td valign="top">An interactive 3D map of 38 museums, shipyards, universities and technology centres in Spain's engineering network, built for the IIE. First IIE–AWS prize, 2025. <b>Looking for a new owner.</b></td>
-  </tr>
-  <tr>
-    <td valign="top"><a href="https://github.com/jandoni/linkedin-daily-agent"><b>LinkedIn daily agent</b></a><br><sub>Python · n8n · Claude</sub></td>
-    <td valign="top">Finds tech and AI news, drafts a post in my voice with the article's real numbers, renders the image, and waits in Telegram until I tap Publish. Both workflows are generated from Python, and it posts only through LinkedIn's official API.</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Home lab</b><br><sub>Home Assistant · Proxmox · Python</sub></td>
-    <td valign="top">One mini PC running Home Assistant and a dozen services. A local voice assistant runs on the Intel iGPU (Parakeet speech-to-text, a 3B local model), with Echo Shows reflashed as voice satellites. The config is private because it maps my home network.</td>
-  </tr>
-</table>
-
-### Writing
-
-- [AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis](https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473) · Microsoft Tech Community
-- [Azure Automated Virtual Machine Recovery: Minimizing Downtime](https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-automated-virtual-machine-recovery-minimizing-downtime/ba-p/4483166) · Microsoft Tech Community
-- Research on building an OpenStack private cloud, from my engineering studies · [Google Scholar](https://scholar.google.com/citations?user=bZPQs6kAAAAJ)
 
 ### Activity
 
@@ -66,6 +39,20 @@ LinkedIn in English and Spanish.
 
 Most of my cloud work has been on Azure and AWS, with migrations across Google
 Cloud too. Certified PMP, AWS Cloud Practitioner and Azure Fundamentals.
+
+### Selected work
+
+<p>
+<a href="https://github.com/jandoni/vigia"><img src="assets/cards/vigia.svg" width="49%" alt="VIGÍA: disaster detection for the cameras cities already have. First prize, IIE Young Engineers 2025. Looking for maintainers."></a><a href="https://github.com/jandoni/ingenet3d"><img src="assets/cards/explorar-espana.svg" width="49%" alt="Explorar España: a 3D map of Spain's engineering network for the IIE. First IIE–AWS prize, 2025. Looking for a new owner."></a>
+<a href="https://github.com/jandoni/linkedin-daily-agent"><img src="assets/cards/linkedin-daily-agent.svg" width="49%" alt="LinkedIn daily agent: drafts posts from tech news and waits in Telegram for approval. MIT."></a><img src="assets/cards/home-lab.svg" width="49%" alt="Home lab: Home Assistant and a dozen services on one mini PC, with a local voice assistant. Private.">
+</p>
+
+### Publications
+
+<p>
+<a href="https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473"><img src="assets/cards/pub-ai-rca.svg" width="49%" alt="AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis. Microsoft Tech Community, April 2026."></a><a href="https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-automated-virtual-machine-recovery-minimizing-downtime/ba-p/4483166"><img src="assets/cards/pub-vm-recovery.svg" width="49%" alt="Azure Automated Virtual Machine Recovery: Minimizing Downtime. Microsoft Tech Community, February 2026."></a>
+<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bZPQs6kAAAAJ&citation_for_view=bZPQs6kAAAAJ:u-x6o8ySG0sC"><img src="assets/cards/pub-private-cloud.svg" width="49%" alt="Design and build of a custom private cloud. Research, University of the Basque Country, 2025."></a><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bZPQs6kAAAAJ&citation_for_view=bZPQs6kAAAAJ:u5HHmVD_uO8C"><img src="assets/cards/pub-spoofing.svg" width="49%" alt="Integración de bases de datos para la detección de ataques mediante Spoofing. Research, 2020."></a>
+</p>
 
 ---
 
