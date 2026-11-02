@@ -22,6 +22,13 @@ def linkedin_icon(x: float, y: float) -> str:
             f'font-weight="700" font-size="11" fill="{COPPER}">in</text>')
 
 
+def grid_icon(x: float, y: float) -> str:
+    """Four rounded squares: a simple 'projects' glyph."""
+    g, gap = (ICON - 3) / 2, 3
+    return "".join(f'<rect x="{x + cx * (g + gap):.1f}" y="{y + cy * (g + gap):.1f}" width="{g:.1f}" height="{g:.1f}" rx="1.8" '
+                   f'fill="none" stroke="{WHITE}" stroke-width="1.5"/>' for cx in (0, 1) for cy in (0, 1))
+
+
 def globe_icon(x: float, y: float) -> str:
     c, r = (x + ICON / 2, y + ICON / 2), ICON / 2 - 0.8
     s = f'stroke="{WHITE}" stroke-width="1.4" fill="none"'
@@ -36,7 +43,7 @@ def scholar_icon(x: float, y: float) -> str:
     return f'<path transform="translate({x},{y}) scale({ICON / 24})" d="{d}" fill="{WHITE}"/>'
 
 
-BUTTONS = [("linkedin", "LinkedIn", linkedin_icon), ("website", "jonandonibaranda.com", globe_icon),
+BUTTONS = [("projects", "Projects", grid_icon), ("linkedin", "LinkedIn", linkedin_icon), ("website", "jonandonibaranda.com", globe_icon),
            ("scholar", "Google Scholar", scholar_icon)]
 
 
