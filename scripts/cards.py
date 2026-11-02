@@ -28,19 +28,19 @@ W, H, PAD = 460, 548, 16
 PHOTO_H = 214
 
 CARDS = [
-    dict(slug="pub-ai-rca", photo="img/projects/vm-investigations.webp",
+    dict(slug="publication-ai-rca", photo="img/projects/vm-investigations.webp",
          title="AI that automates root-cause analysis for VM downtime",
          body="How AI and MCP turn Azure telemetry into a recovery timeline and a structured root-cause report, attached directly to the incident.",
          label="Published on Microsoft's Azure blog", button="Read the article"),
-    dict(slug="pub-vm-recovery", photo="img/projects/vm-recovery.webp",
+    dict(slug="publication-vm-recovery", photo="img/projects/vm-recovery.webp",
          title="Automated VM recovery that minimizes downtime",
          body="A three-stage detect, diagnose and mitigate approach to recovering Azure virtual machines automatically and minimizing customer downtime.",
          label="Published on Microsoft's Azure blog", button="Read the article"),
-    dict(slug="pub-private-cloud", photo="img/projects/openstack-cloud.webp",
+    dict(slug="publication-private-cloud", photo="img/projects/openstack-cloud.webp",
          title="Building an OpenStack private cloud",
          body="Research on designing and building a private cloud on OpenStack, from my computer science studies at the University of the Basque Country.",
          label="Research · Google Scholar", button="Read the research"),
-    dict(slug="pub-spoofing", photo=None, panel=("Investigación", "2020 · in Spanish"),
+    dict(slug="publication-spoofing", photo=None, panel=("Investigación", "2020 · in Spanish"),
          title="Database integration to detect spoofing attacks",
          body="Research, written in Spanish, on integrating databases to detect spoofing attacks. Original title: Integración de bases de datos para la detección de ataques mediante Spoofing.",
          label="Research · Google Scholar", button="Read the research"),

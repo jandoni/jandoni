@@ -11,11 +11,11 @@
 ### Publications
 
 <p align="center">
-<a href="https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473"><img src="assets/cards/pub-ai-rca.svg?v=2" width="48%" alt="AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis. Microsoft Tech Community, April 2026."></a>&nbsp;&nbsp;&nbsp;
-<a href="https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-automated-virtual-machine-recovery-minimizing-downtime/ba-p/4483166"><img src="assets/cards/pub-vm-recovery.svg?v=2" width="48%" alt="Azure Automated Virtual Machine Recovery: Minimizing Downtime. Microsoft Tech Community, February 2026."></a>
+<a href="https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473"><img src="assets/cards/publication-ai-rca.svg" width="48%" alt="AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis. Microsoft Tech Community, April 2026."></a>&nbsp;&nbsp;&nbsp;
+<a href="https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-automated-virtual-machine-recovery-minimizing-downtime/ba-p/4483166"><img src="assets/cards/publication-vm-recovery.svg" width="48%" alt="Azure Automated Virtual Machine Recovery: Minimizing Downtime. Microsoft Tech Community, February 2026."></a>
 </p>
 
 <p align="center">
-<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bZPQs6kAAAAJ&citation_for_view=bZPQs6kAAAAJ:u-x6o8ySG0sC"><img src="assets/cards/pub-private-cloud.svg?v=2" width="48%" alt="Design and build of a custom private cloud. Research, University of the Basque Country, 2025."></a>&nbsp;&nbsp;&nbsp;
-<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bZPQs6kAAAAJ&citation_for_view=bZPQs6kAAAAJ:u5HHmVD_uO8C"><img src="assets/cards/pub-spoofing.svg?v=2" width="48%" alt="Integración de bases de datos para la detección de ataques mediante Spoofing. Research, 2020."></a>
+<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bZPQs6kAAAAJ&citation_for_view=bZPQs6kAAAAJ:u-x6o8ySG0sC"><img src="assets/cards/publication-private-cloud.svg" width="48%" alt="Design and build of a custom private cloud. Research, University of the Basque Country, 2025."></a>&nbsp;&nbsp;&nbsp;
+<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bZPQs6kAAAAJ&citation_for_view=bZPQs6kAAAAJ:u5HHmVD_uO8C"><img src="assets/cards/publication-spoofing.svg" width="48%" alt="Integración de bases de datos para la detección de ataques mediante Spoofing. Research, 2020."></a>
 </p>
