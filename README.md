@@ -29,6 +29,10 @@
 
 <br clear="left">
 
+### GitHub contributions in the last year
+
+<sub>Each square is a day of commits and other contributions, private work included. The snake eats them in order.</sub>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jandoni/jandoni/output/snake-dark.svg">
   <img width="100%" src="https://raw.githubusercontent.com/jandoni/jandoni/output/snake-light.svg" alt="A copper snake eating this year's GitHub contribution graph, redrawn daily.">

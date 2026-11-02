@@ -45,15 +45,18 @@ def render(src: str) -> str:
         '<animate attributeName="opacity" from="0" to="1" begin="0s" dur="1.4s" fill="freeze"/></image>'
         f'<rect x="{W - PHOTO_W}" y="0" width="90" height="{H}" fill="url(#fade)"/></g>',
     ]
-    t = 0.3
+    # Type the headline one character at a time, like the title line below it.
+    t, per_char = 0.6, 0.05
     for line, y in zip(WORDS, (112, 166)):
         spans = []
-        for word, colour, kind in line:
+        for wi, (word, colour, kind) in enumerate(line):
             italic = ' font-style="italic"' if kind == "i" else ""
-            spans.append(f'<tspan fill="{colour}"{italic} opacity="0">{word} '
-                         f'<animate attributeName="opacity" from="0" to="1" begin="{t:.2f}s" dur=".5s" fill="freeze"/></tspan>')
-            t += 0.16
-        parts.append(f'<text class="w" x="60" y="{y}">{"".join(spans)}</text>')
+            chars = word + (" " if wi < len(line) - 1 else "")
+            for ch in chars:
+                spans.append(f'<tspan fill="{colour}"{italic} opacity="0">{ch}<set attributeName="opacity" to="1" begin="{t:.2f}s"/></tspan>')
+                t += per_char
+        parts.append(f'<text class="w" x="60" y="{y}" xml:space="preserve">{"".join(spans)}</text>')
+        t += 0.25
     n = len(ROLE)
     steps = ";".join(f"{j * 7.6:.1f}" for j in range(n + 1))
     parts.append(f'<clipPath id="rc"><rect x="60" y="196" height="22" width="0">'
