@@ -18,19 +18,6 @@ SERIF = "Georgia, 'Times New Roman', serif"
 SANS = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
 
 CARDS = [
-    # projects
-    dict(slug="vigia", kicker="Python · ONNX · FastAPI", title="VIGÍA",
-         body="Disaster detection for the cameras cities already have: published detectors behind one validator that decides which alarms reach a person.",
-         note="First prize, IIE Young Engineers 2025", pill="Looking for maintainers"),
-    dict(slug="explorar-espana", kicker="JavaScript · Google 3D Maps · AWS", title="Explorar España",
-         body="A 3D map of 38 museums, shipyards, universities and technology centres in Spain's engineering network, built for the Instituto de la Ingeniería de España.",
-         note="First IIE–AWS prize, 2025", pill="Looking for a new owner"),
-    dict(slug="linkedin-daily-agent", kicker="Python · n8n · Claude", title="LinkedIn daily agent",
-         body="Finds tech news, drafts a post in my voice with the article's real numbers, renders the image, and waits in Telegram until I tap Publish.",
-         note="Official LinkedIn API only", pill="MIT"),
-    dict(slug="home-lab", kicker="Home Assistant · Proxmox · Python", title="Home lab",
-         body="One mini PC running Home Assistant and a dozen services. A local voice assistant runs on the Intel iGPU, with Echo Shows reflashed as voice satellites.",
-         note="Speech-to-text in 0.27 s, fully local", pill="Private"),
     # publications
     dict(slug="pub-ai-rca", kicker="Microsoft Tech Community · Azure Compute Blog",
          title="AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis",

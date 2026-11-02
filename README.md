@@ -1,39 +1,26 @@
-<img src="assets/header.webp" width="100%" alt="Building cloud and AI products people actually use. Director of Product Management, Platform Engineering.">
-
-### Activity
-
-<img src="assets/activity.svg" width="100%" alt="GitHub contributions over the last year, redrawn daily by a GitHub Action in this repository.">
-
-<sub>Redrawn every day by <a href="scripts/activity.py">a small script</a> from the public contribution calendar. Most of my work is in private repositories, so it shows up here as counts only.</sub>
+<a href="https://jonandonibaranda.com"><img src="assets/header.webp" width="100%" alt="Building cloud and AI products people actually use. Director of Product Management, Platform Engineering."></a>
 
 ### Tools I reach for
 
 <p>
-  <img src="https://cdn.simpleicons.org/python/8a4f28/c08250" height="22" alt="Python" title="Python">&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/typescript/8a4f28/c08250" height="22" alt="TypeScript" title="TypeScript">&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/kubernetes/8a4f28/c08250" height="22" alt="Kubernetes" title="Kubernetes">&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/terraform/8a4f28/c08250" height="22" alt="Terraform" title="Terraform">&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/docker/8a4f28/c08250" height="22" alt="Docker" title="Docker">&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/googlecloud/8a4f28/c08250" height="22" alt="Google Cloud" title="Google Cloud">&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/postgresql/8a4f28/c08250" height="22" alt="PostgreSQL" title="PostgreSQL">&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/apacheairflow/8a4f28/c08250" height="22" alt="Apache Airflow" title="Apache Airflow">&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/apachespark/8a4f28/c08250" height="22" alt="Apache Spark" title="Apache Spark">&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/prometheus/8a4f28/c08250" height="22" alt="Prometheus" title="Prometheus">&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/grafana/8a4f28/c08250" height="22" alt="Grafana" title="Grafana">&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/onnx/8a4f28/c08250" height="22" alt="ONNX" title="ONNX">&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/homeassistant/8a4f28/c08250" height="22" alt="Home Assistant" title="Home Assistant">&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/proxmox/8a4f28/c08250" height="22" alt="Proxmox" title="Proxmox">
+  <a href="https://www.python.org" title="Python"><img src="https://cdn.simpleicons.org/python/8a4f28/c08250" height="24" alt="Python"></a>&nbsp;&nbsp;
+  <a href="https://www.typescriptlang.org" title="TypeScript"><img src="https://cdn.simpleicons.org/typescript/8a4f28/c08250" height="24" alt="TypeScript"></a>&nbsp;&nbsp;
+  <a href="https://kubernetes.io" title="Kubernetes"><img src="https://cdn.simpleicons.org/kubernetes/8a4f28/c08250" height="24" alt="Kubernetes"></a>&nbsp;&nbsp;
+  <a href="https://developer.hashicorp.com/terraform" title="Terraform"><img src="https://cdn.simpleicons.org/terraform/8a4f28/c08250" height="24" alt="Terraform"></a>&nbsp;&nbsp;
+  <a href="https://www.docker.com" title="Docker"><img src="https://cdn.simpleicons.org/docker/8a4f28/c08250" height="24" alt="Docker"></a>&nbsp;&nbsp;
+  <a href="https://cloud.google.com" title="Google Cloud"><img src="https://cdn.simpleicons.org/googlecloud/8a4f28/c08250" height="24" alt="Google Cloud"></a>&nbsp;&nbsp;
+  <a href="https://www.postgresql.org" title="PostgreSQL"><img src="https://cdn.simpleicons.org/postgresql/8a4f28/c08250" height="24" alt="PostgreSQL"></a>&nbsp;&nbsp;
+  <a href="https://airflow.apache.org" title="Apache Airflow"><img src="https://cdn.simpleicons.org/apacheairflow/8a4f28/c08250" height="24" alt="Apache Airflow"></a>&nbsp;&nbsp;
+  <a href="https://spark.apache.org" title="Apache Spark"><img src="https://cdn.simpleicons.org/apachespark/8a4f28/c08250" height="24" alt="Apache Spark"></a>&nbsp;&nbsp;
+  <a href="https://prometheus.io" title="Prometheus"><img src="https://cdn.simpleicons.org/prometheus/8a4f28/c08250" height="24" alt="Prometheus"></a>&nbsp;&nbsp;
+  <a href="https://grafana.com" title="Grafana"><img src="https://cdn.simpleicons.org/grafana/8a4f28/c08250" height="24" alt="Grafana"></a>&nbsp;&nbsp;
+  <a href="https://onnx.ai" title="ONNX"><img src="https://cdn.simpleicons.org/onnx/8a4f28/c08250" height="24" alt="ONNX"></a>&nbsp;&nbsp;
+  <a href="https://www.home-assistant.io" title="Home Assistant"><img src="https://cdn.simpleicons.org/homeassistant/8a4f28/c08250" height="24" alt="Home Assistant"></a>&nbsp;&nbsp;
+  <a href="https://www.proxmox.com" title="Proxmox"><img src="https://cdn.simpleicons.org/proxmox/8a4f28/c08250" height="24" alt="Proxmox"></a>
 </p>
 
 Most of my cloud work has been on Azure and AWS, with migrations across Google
 Cloud too. Certified PMP, AWS Cloud Practitioner and Azure Fundamentals.
-
-### Selected work
-
-<p>
-<a href="https://github.com/jandoni/vigia"><img src="assets/cards/vigia.svg" width="49%" alt="VIGÍA: disaster detection for the cameras cities already have. First prize, IIE Young Engineers 2025. Looking for maintainers."></a><a href="https://github.com/jandoni/ingenet3d"><img src="assets/cards/explorar-espana.svg" width="49%" alt="Explorar España: a 3D map of Spain's engineering network for the IIE. First IIE–AWS prize, 2025. Looking for a new owner."></a>
-<a href="https://github.com/jandoni/linkedin-daily-agent"><img src="assets/cards/linkedin-daily-agent.svg" width="49%" alt="LinkedIn daily agent: drafts posts from tech news and waits in Telegram for approval. MIT."></a><img src="assets/cards/home-lab.svg" width="49%" alt="Home lab: Home Assistant and a dozen services on one mini PC, with a local voice assistant. Private.">
-</p>
 
 ### Publications
 
