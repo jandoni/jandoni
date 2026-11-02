@@ -6,7 +6,7 @@
   <a href="https://scholar.google.com/citations?user=bZPQs6kAAAAJ"><img src="assets/buttons/scholar.svg" height="38" alt="Google Scholar"></a>
 </p>
 
-<a href="https://www.linkedin.com/in/jon-andoni-baranda/"><img align="left" width="64%" src="assets/terminal.svg" alt="Terminal: whoami prints Director of Product Management, Platform Engineering; career.txt lists SRE for live TV in Bilbao, data infrastructure behind a 500 TB data lake on AWS in Chicago, and reliability and capacity programs for Azure's VM fleet at Microsoft; building lists vigia, explorar-espana, linkedin-daily-agent and casa-voice."></a>
+<a href="https://www.linkedin.com/in/jon-andoni-baranda/"><img align="left" width="64%" src="assets/terminal.svg" alt="Terminal: whoami prints Director of Product Management, Platform Engineering; career.txt lists SRE for live TV in Bilbao, data infrastructure behind a 500 TB data lake on AWS in Chicago, and reliability and capacity programs for Azure's VM fleet at Microsoft; building lists vigia, explorar-espana, linkedin-daily-agent, casa-voice-assistant, self-hosted-homelab and echo-show-home-assistant."></a>
 
 **Tools I reach for**
 

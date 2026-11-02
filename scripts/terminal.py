@@ -17,7 +17,8 @@ SESSION = [
     ("cat career.txt", ["SRE for live TV broadcasting, Bilbao",
                         "Data infrastructure behind a 500 TB data lake on AWS, Chicago",
                         "Reliability and capacity programs for Azure's VM fleet, Microsoft"]),
-    ("ls building/", ["vigia   explorar-espana   linkedin-daily-agent   casa-voice"]),
+    ("ls building/", ["vigia   explorar-espana   linkedin-daily-agent",
+                      "casa-voice-assistant   self-hosted-homelab   echo-show-home-assistant"]),
 ]
 MONO = "Menlo, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace"
 CW, LH, FS = 8.1, 21, 13.5          # char width, line height, font size
@@ -65,7 +66,7 @@ def render(palette: str) -> str:
            f'<line x1="0" y1="31" x2="{width}" y2="31" stroke="{c["border"]}"/>'
            f'<text x="{width / 2:.0f}" y="20" text-anchor="middle" fill="{c["title"]}" style="font:12px -apple-system,\'Segoe UI\',Helvetica,Arial,sans-serif">jon@chicago: ~</text>')
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" '
-            f'aria-label="Terminal: whoami, Director of Product Management, Platform Engineering. Career: SRE, data infrastructure, Azure reliability. Building: VIGIA, Explorar Espana, LinkedIn daily agent, Casa.">'
+            f'aria-label="Terminal: whoami, Director of Product Management, Platform Engineering. Career: SRE, data infrastructure, Azure reliability. Building: VIGIA, Explorar Espana, LinkedIn daily agent, Casa voice assistant, self-hosted homelab, Echo Show for Home Assistant.">'
             f'<style>text{{font:{FS}px {MONO};white-space:pre}}@media (prefers-reduced-motion: reduce){{*{{animation:none}}}}</style>'
             f'<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="8" fill="{c["bg"]}" stroke="{c["border"]}"/>'
             f'{bar}{"".join(parts)}</svg>\n')
