@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/jon-andoni-baranda/"><img src="https://img.shields.io/badge/LinkedIn-8a4f28?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://jonandonibaranda.com"><img src="https://img.shields.io/badge/jonandonibaranda.com-8a4f28?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
-  <a href="https://scholar.google.com/citations?user=bZPQs6kAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-8a4f28?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
+  <a href="https://www.linkedin.com/in/jon-andoni-baranda/"><img src="https://img.shields.io/badge/LinkedIn-8a4f28?style=for-the-badge" alt="LinkedIn"></a>
+  <a href="https://jonandonibaranda.com"><img src="https://img.shields.io/badge/jonandonibaranda.com-8a4f28?style=for-the-badge" alt="Website"></a>
+  <a href="https://scholar.google.com/citations?user=bZPQs6kAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-8a4f28?style=for-the-badge" alt="Google Scholar"></a>
 </p>
 
 <a href="scripts/activity.py"><img align="left" width="63%" src="assets/activity.svg" alt="GitHub contributions over the last year, animated, redrawn daily by a GitHub Action in this repository."></a>
