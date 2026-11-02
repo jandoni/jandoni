@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="165" height="38" viewBox="0 0 165 38" role="img" aria-label="Google Scholar">
+<rect width="165" height="38" rx="19.0" fill="#8a4f28"/>
+<path transform="translate(16,11.0) scale(0.6666666666666666)" d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z" fill="#ffffff"/>
+<text x="41" y="23.6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#ffffff">Google Scholar</text>
+</svg>

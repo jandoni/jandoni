@@ -108,9 +108,9 @@ def render(days: list[tuple[dt.date, int]]) -> str:
     cuts = [nonzero[int(len(nonzero) * q)] for q in (0.25, 0.5, 0.75)] if nonzero else [1, 2, 3]
     top_days = {d for d, n in sorted(days, key=lambda x: -x[1])[:8] if n}
 
-    cell, gap = 8, 2.5
+    cell, gap = 9, 2.6
     step = cell + gap
-    left, top = 22, 92
+    left, top = 22, 80
     first = days[0][0]
     start = first - dt.timedelta(days=(first.weekday() + 1) % 7)
     weeks = (days[-1][0] - start).days // 7 + 1
@@ -133,7 +133,7 @@ def render(days: list[tuple[dt.date, int]]) -> str:
         if d.day <= 7 and row == 0 and d.month != last_month:
             months.append(f'<text x="{x:.1f}" y="{top - 7}" class="m">{d.strftime("%b")}</text>')
             last_month = d.month
-    plane_y = 60
+    plane_y = 45
     travel = weeks * step + 10
     updated = dt.date.today().strftime("%-d %b %Y")
     legend_x = width - left - 5 * step - 58
@@ -165,7 +165,6 @@ def render(days: list[tuple[dt.date, int]]) -> str:
 </style>
 <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="8" fill="{PAPER}" stroke="{BORDER}"/>
 <text x="{left}" y="34" class="t"><tspan class="n">{total:,}</tspan> contributions in the last year</text>
-<text x="{left}" y="53" class="s">{active} active days · longest streak {streak} days · busiest month {busiest}</text>
 {''.join(months)}
 {''.join(rects)}
 {''.join(glows)}
