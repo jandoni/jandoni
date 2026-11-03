@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Animated profile header: the Chicago skyline photo with the headline appearing
-word by word and the title typing out. SVG + SMIL, so it plays inside GitHub's
-<img> and stays sharp. Run `python scripts/header.py <skyline.png>` to rebuild.
+"""Animated profile header: the Chicago skyline photo with the headline and the
+title typing out, each letter fading in rather than popping. SVG + SMIL, so it
+plays inside GitHub's <img> and stays sharp. Run `python scripts/header.py
+<skyline.png>` to rebuild.
 """
 
 from __future__ import annotations
@@ -19,6 +20,17 @@ W, H, PHOTO_W = 1100, 260, 344
 WORDS = [[("Building", INK, ""), ("cloud", INK, ""), ("and", INK, ""), ("AI", COPPER, ""), ("products", COPPER, "")],
          [("people", INK, ""), ("actually", INK, "i"), ("use.", INK, "")]]
 ROLE = "Technical Program Manager, Cloud Reliability"   # the Director variant is kept as assets/header.svg
+EASE = 'calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"'   # ease-out
+
+
+def letters(text: str, colour: str, t: float, per_char: float, extra: str = "") -> tuple[list[str], float]:
+    """One tspan per character, each fading in over 0.4s as the next one starts."""
+    spans = []
+    for ch in text:
+        spans.append(f'<tspan fill="{colour}"{extra} opacity="0">{ch}<animate attributeName="opacity" values="0;1" {EASE} '
+                     f'begin="{t:.2f}s" dur=".4s" fill="freeze"/></tspan>')
+        t += per_char
+    return spans, t
 
 
 def photo_b64(src: str) -> str:
@@ -42,26 +54,22 @@ def render(src: str, role: str = ROLE) -> str:
         '@media (prefers-reduced-motion: reduce){*{animation:none}}</style>',
         f'<g clip-path="url(#r)"><rect width="{W}" height="{H}" fill="url(#pg)"/>'
         f'<image href="data:image/jpeg;base64,{b64}" x="{W - PHOTO_W}" y="0" width="{PHOTO_W}" height="{H}" preserveAspectRatio="xMidYMax slice" opacity="0">'
-        '<animate attributeName="opacity" from="0" to="1" begin="0s" dur="1.4s" fill="freeze"/></image>'
+        f'<animate attributeName="opacity" values="0;1" {EASE} begin="0s" dur="1.4s" fill="freeze"/></image>'
         f'<rect x="{W - PHOTO_W}" y="0" width="90" height="{H}" fill="url(#fade)"/></g>',
     ]
-    # Type the headline one character at a time, like the title line below it.
+    # Type the headline one character at a time, then the title line below it a little faster.
     t, per_char = 0.6, 0.05
     for line, y in zip(WORDS, (112, 166)):
         spans = []
         for wi, (word, colour, kind) in enumerate(line):
             italic = ' font-style="italic"' if kind == "i" else ""
             chars = word + (" " if wi < len(line) - 1 else "")
-            for ch in chars:
-                spans.append(f'<tspan fill="{colour}"{italic} opacity="0">{ch}<set attributeName="opacity" to="1" begin="{t:.2f}s"/></tspan>')
-                t += per_char
+            new, t = letters(chars, colour, t, per_char, italic)
+            spans += new
         parts.append(f'<text class="w" x="60" y="{y}" xml:space="preserve">{"".join(spans)}</text>')
         t += 0.25
-    n = len(role)
-    steps = ";".join(f"{j * 7.6:.1f}" for j in range(n + 1))
-    parts.append(f'<clipPath id="rc"><rect x="60" y="196" height="22" width="0">'
-                 f'<animate attributeName="width" values="{steps}" calcMode="discrete" begin="{t + .3:.2f}s" dur="1.4s" fill="freeze"/></rect></clipPath>'
-                 f'<g clip-path="url(#rc)"><text class="r" x="60" y="212" fill="{MUTED}">{role}</text></g>')
+    spans, _ = letters(role, MUTED, t + .3, 1.4 / len(role))
+    parts.append(f'<text class="r" x="60" y="212" xml:space="preserve">{"".join(spans)}</text>')
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
             f'aria-label="Building cloud and AI products people actually use. {role}.">' + "".join(parts) + "</svg>\n")
 
