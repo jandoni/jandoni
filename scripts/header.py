@@ -18,7 +18,7 @@ INK, COPPER, MUTED = "#111111", "#8a4f28", "#5f5a54"
 W, H, PHOTO_W = 1100, 260, 344
 WORDS = [[("Building", INK, ""), ("cloud", INK, ""), ("and", INK, ""), ("AI", COPPER, ""), ("products", COPPER, "")],
          [("people", INK, ""), ("actually", INK, "i"), ("use.", INK, "")]]
-ROLE = "Director of Product Management, Platform Engineering"
+ROLE = "Technical Program Manager, Cloud Reliability"   # the Director variant is kept as assets/header.svg
 
 
 def photo_b64(src: str) -> str:
@@ -30,7 +30,7 @@ def photo_b64(src: str) -> str:
     return base64.b64encode(buf.getvalue()).decode()
 
 
-def render(src: str) -> str:
+def render(src: str, role: str = ROLE) -> str:
     b64 = photo_b64(src)
     parts = [
         '<defs>'
@@ -57,15 +57,21 @@ def render(src: str) -> str:
                 t += per_char
         parts.append(f'<text class="w" x="60" y="{y}" xml:space="preserve">{"".join(spans)}</text>')
         t += 0.25
-    n = len(ROLE)
+    n = len(role)
     steps = ";".join(f"{j * 7.6:.1f}" for j in range(n + 1))
     parts.append(f'<clipPath id="rc"><rect x="60" y="196" height="22" width="0">'
                  f'<animate attributeName="width" values="{steps}" calcMode="discrete" begin="{t + .3:.2f}s" dur="1.4s" fill="freeze"/></rect></clipPath>'
-                 f'<g clip-path="url(#rc)"><text class="r" x="60" y="212" fill="{MUTED}">{ROLE}</text></g>')
+                 f'<g clip-path="url(#rc)"><text class="r" x="60" y="212" fill="{MUTED}">{role}</text></g>')
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
-            f'aria-label="Building cloud and AI products people actually use. {ROLE}.">' + "".join(parts) + "</svg>\n")
+            f'aria-label="Building cloud and AI products people actually use. {role}.">' + "".join(parts) + "</svg>\n")
 
 
 if __name__ == "__main__":
-    OUT.write_text(render(sys.argv[1]), encoding="utf-8")
-    print(f"wrote {OUT} ({OUT.stat().st_size // 1024} KB)")
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("photo", help="banner image the skyline is cropped from")
+    ap.add_argument("--role", default=ROLE, help="the line typed under the headline")
+    ap.add_argument("--out", type=Path, default=OUT.with_name("header-tpm.svg"))
+    a = ap.parse_args()
+    a.out.write_text(render(a.photo, a.role), encoding="utf-8")
+    print(f"wrote {a.out} ({a.out.stat().st_size // 1024} KB): {a.role}")

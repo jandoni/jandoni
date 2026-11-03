@@ -1,4 +1,4 @@
-<a href="https://www.linkedin.com/in/jon-andoni-baranda/"><img src="assets/header.svg" width="100%" alt="Building cloud and AI products people actually use. Director of Product Management, Platform Engineering."></a>
+<a href="https://www.linkedin.com/in/jon-andoni-baranda/"><img src="assets/header-tpm.svg" width="100%" alt="Building cloud and AI products people actually use. Technical Program Manager, Cloud Reliability."></a>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jon-andoni-baranda/"><img src="assets/buttons/linkedin.svg" height="38" alt="LinkedIn"></a>&nbsp;
