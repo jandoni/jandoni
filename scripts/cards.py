@@ -28,6 +28,10 @@ W, H, PAD = 460, 548, 16
 PHOTO_H = 214
 
 CARDS = [
+    dict(slug="highlight-vigia-award", photo="img/projects/vigia-award.webp",
+         title="First prize, Engineering Institute of Spain",
+         body="I created VIGÍA for the IIE's Young Engineers for a Better World competition: an AI system that detects emergencies early using existing camera infrastructure. It won first prize.",
+         label="Award · November 2025", button="Read the announcement"),
     dict(slug="publication-ai-rca", photo="img/projects/vm-investigations.webp",
          title="AI that automates root-cause analysis for VM downtime",
          body="How AI and MCP turn Azure telemetry into a recovery timeline and a structured root-cause report, attached directly to the incident.",
@@ -39,10 +43,6 @@ CARDS = [
     dict(slug="publication-private-cloud", photo="img/projects/openstack-cloud.webp",
          title="Building an OpenStack private cloud",
          body="Research on designing and building a private cloud on OpenStack, from my computer science studies at the University of the Basque Country.",
-         label="Research · Google Scholar", button="Read the research"),
-    dict(slug="publication-spoofing", photo=None, panel=("Investigación", "2020 · in Spanish"),
-         title="Database integration to detect spoofing attacks",
-         body="Research, written in Spanish, on integrating databases to detect spoofing attacks. Original title: Integración de bases de datos para la detección de ataques mediante Spoofing.",
          label="Research · Google Scholar", button="Read the research"),
 ]
 

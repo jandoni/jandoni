@@ -8,14 +8,14 @@
 
 <a href="https://github.com/jandoni?tab=repositories"><img src="https://raw.githubusercontent.com/jandoni/jandoni/output/terminal.svg?v=2" width="100%" alt="Terminal: this year's GitHub contributions as a copper snake animation, each square a day of contributions; then the tools I use: Python, TypeScript, Kubernetes, Terraform, Docker, Google Cloud, PostgreSQL, Airflow, Spark, Prometheus, Grafana, ONNX, Home Assistant and Proxmox."></a>
 
-### Publications
+### Highlights
 
 <p align="center">
-<a href="https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473"><img src="assets/cards/publication-ai-rca.svg" width="48%" alt="AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis. Microsoft Tech Community, April 2026."></a>&nbsp;&nbsp;&nbsp;
-<a href="https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-automated-virtual-machine-recovery-minimizing-downtime/ba-p/4483166"><img src="assets/cards/publication-vm-recovery.svg" width="48%" alt="Azure Automated Virtual Machine Recovery: Minimizing Downtime. Microsoft Tech Community, February 2026."></a>
+<a href="https://www.ineco.com/ineco/en/communication/news/ineco-awards-prize-second-young-engineers-better-world-competition-innovative-vigia-system"><img src="assets/cards/highlight-vigia-award.svg" width="48%" alt="First prize, Engineering Institute of Spain: VIGÍA, an AI system that detects emergencies early using existing cameras."></a>&nbsp;&nbsp;&nbsp;
+<a href="https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473"><img src="assets/cards/publication-ai-rca.svg" width="48%" alt="AI that automates root-cause analysis for VM downtime. Published on Microsoft's Azure blog."></a>
 </p>
 
 <p align="center">
-<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bZPQs6kAAAAJ&citation_for_view=bZPQs6kAAAAJ:u-x6o8ySG0sC"><img src="assets/cards/publication-private-cloud.svg" width="48%" alt="Design and build of a custom private cloud. Research, University of the Basque Country, 2025."></a>&nbsp;&nbsp;&nbsp;
-<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bZPQs6kAAAAJ&citation_for_view=bZPQs6kAAAAJ:u5HHmVD_uO8C"><img src="assets/cards/publication-spoofing.svg" width="48%" alt="Integración de bases de datos para la detección de ataques mediante Spoofing. Research, 2020."></a>
+<a href="https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-automated-virtual-machine-recovery-minimizing-downtime/ba-p/4483166"><img src="assets/cards/publication-vm-recovery.svg" width="48%" alt="Automated VM recovery that minimizes downtime. Published on Microsoft's Azure blog."></a>&nbsp;&nbsp;&nbsp;
+<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bZPQs6kAAAAJ&citation_for_view=bZPQs6kAAAAJ:u-x6o8ySG0sC"><img src="assets/cards/publication-private-cloud.svg" width="48%" alt="Building an OpenStack private cloud. Research, Google Scholar."></a>
 </p>
