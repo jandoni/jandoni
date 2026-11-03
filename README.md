@@ -1,10 +1,9 @@
-<a href="https://jonandonibaranda.com"><img src="assets/header.svg" width="100%" alt="Building cloud and AI products people actually use. Director of Product Management, Platform Engineering."></a>
+<a href="https://www.linkedin.com/in/jon-andoni-baranda/"><img src="assets/header.svg" width="100%" alt="Building cloud and AI products people actually use. Director of Product Management, Platform Engineering."></a>
 
 <p align="center">
-  <a href="https://github.com/jandoni?tab=repositories&type=source"><img src="assets/buttons/projects.svg" height="38" alt="Projects"></a>&nbsp;
   <a href="https://www.linkedin.com/in/jon-andoni-baranda/"><img src="assets/buttons/linkedin.svg" height="38" alt="LinkedIn"></a>&nbsp;
-  <a href="https://jonandonibaranda.com"><img src="assets/buttons/website.svg" height="38" alt="jonandonibaranda.com"></a>&nbsp;
-  <a href="https://scholar.google.com/citations?user=bZPQs6kAAAAJ"><img src="assets/buttons/scholar.svg" height="38" alt="Google Scholar"></a>
+  <a href="https://scholar.google.com/citations?user=bZPQs6kAAAAJ"><img src="assets/buttons/scholar.svg" height="38" alt="Google Scholar"></a>&nbsp;
+  <a href="https://github.com/jandoni?tab=repositories&type=source"><img src="assets/buttons/github-projects.svg" height="38" alt="Projects"></a>
 </p>
 
 <a href="https://github.com/jandoni?tab=repositories"><img src="https://raw.githubusercontent.com/jandoni/jandoni/output/terminal.svg?v=2" width="100%" alt="Terminal: this year's GitHub contributions as a copper snake animation, each square a day of contributions; then the tools I use: Python, TypeScript, Kubernetes, Terraform, Docker, Google Cloud, PostgreSQL, Airflow, Spark, Prometheus, Grafana, ONNX, Home Assistant and Proxmox."></a>
